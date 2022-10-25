@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="sesiunea21/js-dom-1.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <title>JS DOM - 2</title>
+</head>
+
+<body>
+    <article>
+        <h1 class="main-title">Studenti 2022-2023</h1>
+        <section class="students">
+            <div class="input">
+                <label>Nume Student</label>
+                <input type="text" id="student-name" name="student-name" placeholder="ex. Andrei">
+            </div>
+
+            <div class="input">
+                <label>Nota</label>
+                <input type="number" id="student-grade" name="student-grade" placeholder="ex. 8.75">
+            </div>
+            <button id="add-student">Adauga student</button>
+
+            <div class="students">
+                <h2>Lista studenti</h2>
+
+                <ul id="students-list" class="students-list">
+                    <li>Student 1 <span class="student-grade">9.75</span></li>
+                    <li>Student 2 <span class="student-grade">7.50</span></li>
+                    <li>Student 3 <span class="student-grade">9.00</span></li>
+                    <li>Student 4 <span class="student-grade">8.35</span></li>
+                    <li>Student 5 <span class="student-grade">6.20</span></li>
+                    <li>Student 6 <span class="student-grade">4.75</span></li>
+                    <li>Student 7 <span class="student-grade">10.00</span></li>
+                    <li>Student 8 <span class="student-grade">7.50</li>
+                </ul>
+            </div>
+        </section>
+        <button id="validate-students">Validare studenti</button>
+    </article>
+</body>
+
+</html>
